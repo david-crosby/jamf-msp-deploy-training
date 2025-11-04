@@ -78,7 +78,7 @@ Blueprints in Jamf Pro are pre-configured templates that allow you to deploy sta
 - Version control for configuration standards
 
 **Practical Application:**
-1. Access Blueprints in Jamf Pro: Settings > Computer Management > Blueprints
+1. Access Blueprints in Jamf Pro: Sidebar > Blueprints
 2. Create a new blueprint or import an existing one
 3. Customise for customer-specific requirements
 4. Deploy to target devices

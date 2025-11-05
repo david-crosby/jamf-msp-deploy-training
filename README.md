@@ -1019,21 +1019,12 @@ Cloud identity integration for macOS, enabling:
    ```
 
 5. **Deploy Jamf Connect Package**
-   ```
-   Jamf Pro → Policies → New
-   
-   Policy: "Install Jamf Connect"
-   - Package: JamfConnect.pkg
-   - Trigger: Enrolment Complete
-   - Execution Frequency: Once per computer
-   - Scope: All computers
-   - Add to prestage if zero-touch deployment
-   ```
+   Deploy via Jamf Apps or Mac Apps but **NOT** a policy  
 
 **Deployment Order for Prestage:**
 ```
 Position 1: Jamf Connect configuration profiles
-Position 2: Jamf Connect installer package
+Position 2: Jamf Connect app deploy via Jamf Apps or Mac Apps
 Position 3: Other packages/profiles
 ```
 
